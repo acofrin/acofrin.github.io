@@ -1,54 +1,87 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-            <title></title>
-
-        <!--external stylesheet links-->
-        <link rel="icon" href="assets/favicon.png" type="image/png" sizes="16x16">
-        <link rel="stylesheet" href="../css/bootstrap.min.css">
-        <link rel="stylesheet" href="../lib/leaflet/leaflet.css">
-        <link rel="stylesheet" href="../css/style_lb.css">
-         <!--you can also place internal styles here;
-             place these within <style> tags-->
-        
-    </head>
-
-    <body>
-        <!--put your initial page content here-->
-        <div class="row">
-            <!--title-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-widthm initial-scale=1"/>
+    <meta name="keywords" content="maps,cartography"/>
+    <title>Ashley Cofrin</title>
+    <link rel="icon" href="../assets/favicon.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-default">
+    <div class="container">
+        <div class="navbar">
+            <button type="button" class="navbar-toggler" 
+            data-toggle="collapse" data-target="#navbar-header" 
+            aria-expanded="false" aria-controls="navbar-header"> 
+                <span class="sr-only">Toggle navigation</span>
+                <svg width="1em" height="1em" viewBox="0 0 16 16"
+                 class="bi bi-list" xmlns="https://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" /></svg>
+                  <span class="menu"> Menu</span>
+                </button>
+                <a class="navbar-brand" href="../index.html">Ashley Cofrin</a>
+            </div>
+            <div id="navbar-header" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="../index.html#Maps">Maps</a></li>
+                    <li><a href="../index.html#Graphics">Graphics</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../resume.html">Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script type="text/javascript" src="../lib/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+<div class ="container">
+    <div class="row">
             <div class="col-md-12">
-                <div id="title">
-                <center><h2>Visulizing the Seasonalitty of the Younger Dryas</h2></center>
-                <center><h5>Ashley Cofrin</h5></center>
-            </div>
-        </div>
-    </div>
-    <!--map, using boostrap to make mobile friendly-->
-        <div class="row">
-        <div class="col-md-8">
-		  <div id="mapid"></div>
-            </div>
-    <!--supplementary text to inform narrative-->
-        <div class="col-md-4">
-		  <div id="textid"> 
-            <h4>Abstract</h4>
+                <h3>Visulizing the Seasonality of the Younger Dryas</h3>
+                <p>Ashley Cofrin. Spring, 2021 </p>
+                <img class="card-img-top"
+src="../assets/skyline.png">
+                     <br>
+                <p>In the following visualizations, I use Minneapolis data from 2000, 2010, and 2018 to investigate trends between gentrified areas and the emergence of veganism in the city. 
+                    <br>
+                <h4>Abstract</h4>
             <p>The Younger Dryas was a brief and abrupt climate event associated with a sudden cooling and drying in regions throughout the Northern Hemisphere; likely initiated by a weakening  of the Atlantic meridional overturning circulation (AMOC). I analyze the effects of AMOC weakening and insolation seasonality on climate patterns in eastern North America using simulations of an Earth System Model. In addition to a forced weakening of the AMOC through a freshwater forcing in the North Atlantic, these simulations also include three experiments with obliquity and precession orbital parameters varied to minimize and maximize Northern Hemispheric insolation seasonality. While most of the hemisphere underwent cooling, eastern North America shows some signs of warming and increased precipitation following hosing. As Northern Hemisphere insolation seasonality is forced to increase temperature and precipitation seasonality decrease following hosing. Reduced temperature seasonality in eastern North America is a result of positive temperature anomalies in winter and a common cooling in summer across all orbital configuration experiments. Precipitation seasonality is reduced in all experiments from a common year-round wetting after hosing. These climate responses suggest that a weakening of the AMOC can ameliorate climate seasonality in some regions.</p>
-            <h4>The Data</h4>
-            <p>AMAYBE FILL THIS OUT</p>
-            <p><em>Read the paper to learn of the backgrouund and meathodology of the project</em></p>
-            <br>
-            <h4>The History</h4>
-            <p>WHY THE YOUNGER DRYAS IS IMPORTANT TO STUDY</p>
-          </div>
-            </div>
+            <h4>Veganism</h4>
+            <p>In recent years, vegan diets have been continuously portrayed as elitist and expensive; while also growing in popularity in primarily white privileged areas (Corsetti, 2018). Vegan food often comes at a higher price than other foods and is marketed towards a more middle class crowd, of whom have more advantages. With the previously calculated 'score of advantages', we can see if veganism rises in conjunction with gentrified areas. For this analysis, I defined vegan restaurants as ones that showed up in the app “Happy Cow''. I choose to do this due to its high accessibility for people looking for vegan restaurants along with its popularity as the most used app among people who eat vegan, suggesting its accuracy according to the community.  </p>
+<img class="card-img-top"
+src="../assets/MPLSgen.png">
+    <p> Figure 1: An anomaly graphic of Minneapolis “score of advantages” from 2018 to 2020. Warm colors indicate an increase in advantages over time, while cool colors indicate the opposite. This index score is referred to as “score of advantages” due to recent discussions considering that gentrification itself is hard to score and has many changing factors.  The priincipal component analysis was calculated all years of data in Minneapolis using RStudio software. "New Restaurants" indicate restaurants that were present in 2018, and not 2000. This layer's point data was geocoded from 'Happy Cow', and year data was from each restraunts websities.</p>
+    <br>
+<img class="card-img-top"
+src="../assets/MPLSgenYEAR.png">
+    <p>Figure 2: This figure displays the index scores in each year that there is census data from 2000 to the current day; along with points of what vegan restaurants are present that year, as georeferenced from “Happy Cow”. Classification of high and low are based on the natural breaks function.</p>
+    </div>
+    <h4>Results</h4>
+            <p>The results show that vegan restaurants that appeared between 2000 and 2018 are in areas that have more measured 'advantages' now than they did in 2000; while every time they are on the cusp of an area that had slightly declined in their calculated advantages (Figure 1). None appeared in areas of ‘very’ increased advantages over the last 18 years. There is also a pattern of vegan restaurants surrounding the least advantaged area with nearly none in the middle; this least advantaged center slowly closes in over time (Figure 2). These patterns are indicative of vegan restaurants and gentrified areas moving spatially in similar ways although further research is required to understand the interaction between the two social phenomena. Veganism has many benefits on a personal and environmental scale; so while it may be spatially correlated to gentrification, it is not meant to be discouraged with these results. Future investigation should do community surveying to have a deeper understanding where a high density of people who eat vegan diets are, along with further research on defining gentrification.</p>
         </div>
-
-        <!--put your external script links here-->
-        <script type="text/javascript" src="../lib/jquery-3.5.1.min.js"></script>
-        <script type="text/javascript" src="../lib/leaflet/leaflet-src.js"></script>
-        <script type="text/javascript" src="../js/main.js"></script>
-    </body>
+            <h4>Bibliography</h4>
+        <br>
+        <p>Corsetti, Sophia. “The vegan movement is elitist.” The Massachusetts Daily Collegian, 2018, https://dailycollegian.com/2018/02/the-vegan-movement-is-elitist/.</p>
+        <br>
+        <p>Goetz, Edward G., et al. “The Diversity f Gentrification: Multiple Forms of Gentrification in Minneapolis and St. Paul.” (2019) http://gentrification.umn.edu/sites/gentrification.dl.umn.edu/files/media/diversity-of-gentrification-012519.pdf. </p>
+        <br>
+        <p> Happy Cow. https://www.happycow.net/. </p>
+        <br>
+        <p> Open Minneapolis. https://opendata.minneapolismn.gov/. </p>
+        <br>
+        <p> The National Historical Geographical Information System. https://www.nhgis.org/. </p>
+    </div>
+    <footer>
+            <div class="text-center">
+            
+                <a href="https://twitter.com/lilyhoutman" target="_blank"><i class="fab fa-twitter fa-2x"></i><span class='sr-only'>Twitter</span></a>
+                <a href="https://www.linkedin.com/in/lily-houtman-5307b01b8" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i><span class='sr-only'>Linkedin</span></a>
+                <a href="https://github.com/lilyhoutman" target="_blank"> <i class="fab fa-github fa-2x"></i><span class='sr-only'>GitHub</span></a>
+                <p><i class="fas fa-copyright"></i></i><span class='sr-only'></span> Ashley Cofrin, 2021</p>
+            </div>
+        </footer>
+</body>
 </html>
