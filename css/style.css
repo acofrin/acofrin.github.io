@@ -1,10 +1,10 @@
 .navbar {
-	background-color: #cff1ff; /***light blue***/
+	background-color: #d3d3d3; /***light grey***/
 	border-radius: 0;
 }
 
 .navbar-default .navbar-brand {
-	color: #0a2263; /***navy blue***/
+	color: #a9a9a9; /***dark gray***/
 	font-size: px;
 	font-weight: bold;
 }
@@ -18,7 +18,7 @@
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #0a2263; /***navy blue***/
+	color: #a9a9a9; /***dark gray***/
 	font-size: 16px;
 	padding: 10px;
 }
