@@ -1,5 +1,5 @@
 .navbar {
-	background-color: #557571; /***dark green***/
+	background-color: #D49A89; /***dark pink***/
 	border-radius: 0;
 }
 
@@ -75,8 +75,8 @@
 }
 
 body {
-	font-family: 'Geneva', sans-serif;
-	background-color: #ffffff; /***white ***/
+	font-family: font-family: 'Geneva', sans-serif; ;
+	background-color: #F4F4F4; /*** my white ***/
 	color: #ffffff;
 }
 
