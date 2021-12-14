@@ -37,8 +37,8 @@
 	margin-right: 10px;
 }
 
-.navbar-toggler: hover,
-.navbar-toggler: focus {
+.navbar-toggler:hover,
+.navbar-toggler:focus {
 	background-color: #ffffff;
 	color: #000000;
 	fill: #000000;
