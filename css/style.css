@@ -54,7 +54,11 @@
 	text-align: center;
 	color: #cff1ff; /***light blue***/
 	text-shadow: 1px 1px 5px #525252; /***dark grey***/
+<<<<<<< HEAD
 	padding: 1%;
+=======
+	padding: 10%;
+>>>>>>> parent of 4736a0d (adding height to style)
 	border-radius: 0px;
 }
 
