@@ -1,10 +1,12 @@
+
+   
 .navbar {
-	background-color: #D49A89; /***dark pink***/
+	background-color: #cff1ff; /***light blue***/
 	border-radius: 0;
 }
 
 .navbar-default .navbar-brand {
-	color: #ffffff; /***dark gray ***/
+	color: #0a2263; /***navy blue***/
 	font-size: px;
 	font-weight: bold;
 }
@@ -18,7 +20,7 @@
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #a9a9a9; /***dark gray ***/
+	color: #0a2263; /***navy blue***/
 	font-size: 16px;
 	padding: 10px;
 }
@@ -26,7 +28,7 @@
 .navbar-toggler {
 	color: #ffffff;
 	border-color: #ffffff;
-	background-color: #a9a9a9; /***dark gray ***/
+	background-color: #10359c; /***dark blue***/
 	border-radius: 4px;
 	border: 1px solid;
 	fill: #ffffff;
@@ -35,8 +37,8 @@
 	margin-right: 10px;
 }
 
-.navbar-toggler:hover,
-.navbar-toggler:focus {
+.navbar-toggler: hover,
+.navbar-toggler: focus {
 	background-color: #ffffff;
 	color: #000000;
 	fill: #000000;
@@ -61,8 +63,6 @@
 .jumbotron h2 {
 	font-size: 36px;
 	font-weight: bold;
-	text-align: center;
-
 }
 
 .jumbotron p {
@@ -70,7 +70,7 @@
 }
 
 .card-body {
-	background-color: #a9a9a9; /***dark gray ***/
+	background-color: #10359c; /***dark blue***/
 	border-width: 2px;
 	border-style: solid;
 	border-color: #ffffff; /***white***/
@@ -78,7 +78,7 @@
 
 body {
 	font-family: 'Geneva', sans-serif;
-	background-color: #F4F4F4; /*** my white ***/
+	background-color: #0a2263; /***navy blue***/
 	color: #ffffff;
 }
 
@@ -129,7 +129,7 @@ a:hover {
   width: 100%;
   opacity: 0;
   transition: 1s ease;
-  background-color: #a9a9a9; /***dark gray ***/
+  background-color: #0a2263; /***navy blue***/
 }
 
 .card:hover .overlay {
@@ -154,7 +154,7 @@ a:hover {
 
 .text {
   color: white;
-  font-size: 36px;
+  font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
