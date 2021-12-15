@@ -18,7 +18,7 @@
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #0a2263; /***navy blue***/
+	color: #557571; /***dark green***/
 	font-size: 16px;
 	padding: 10px;
 }
@@ -26,7 +26,7 @@
 .navbar-toggler {
 	color: #ffffff;
 	border-color: #ffffff;
-	background-color: #10359c; /***dark blue***/
+	background-color: #557571; /***dark green***/
 	border-radius: 4px;
 	border: 1px solid;
 	fill: #ffffff;
