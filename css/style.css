@@ -74,6 +74,13 @@
 	border-style: solid;
 	border-color: #ffffff; /***white***/;
 }
+.card-image {
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	width: 80%;
+	height: 300px;
+  }
 
 body {
 	font-family: 'Geneva', sans-serif;
