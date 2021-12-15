@@ -74,6 +74,8 @@
 	border-style: solid;
 	border-color: #ffffff; /***white***/;
 	box-shadow: 2px 2px 4px #000000;
+	width: 75%;
+	padding: 10% ;
 }
 
 body {
