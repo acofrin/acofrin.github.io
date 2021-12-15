@@ -72,7 +72,8 @@
 	background-color: #F4F4F4; /***my white***/
 	border-width: 2px;
 	border-style: solid;
-	border-color: #ffffff; /***white***/
+	border-color: #ffffff; /***white***/;
+	box-shadow: 2px 2px 4px #000000;
 }
 
 body {
