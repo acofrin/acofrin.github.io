@@ -115,7 +115,7 @@ p {
 }
 
 a:hover {
-	color: #ebb93b; /***mustard***/
+	color: #F7D1BA; /***lightpink***/
 	text-decoration: none;
 }
 
@@ -185,7 +185,7 @@ a:hover {
 }
 
 .fa-twitter:hover {
-	color: #ebb93b; /***mustard***/
+	color: #F7D1BA; /***lightpink***/
 }
 
 .fa-linkedin-in {
@@ -194,7 +194,7 @@ a:hover {
 }
 
 .fa-linkedin-in:hover {
-	color: #ebb93b; /***mustard***/
+	color: #F7D1BA; /***lightpink***/
 }
 
 .fa-github {
@@ -203,7 +203,7 @@ a:hover {
 }
 
 .fa-github:hover {
-	color: #ebb93b; /***mustard***/
+	color: #F7D1BA; /***lightpink***/
 }
 
 .fa-copyright {
