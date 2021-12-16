@@ -1,56 +1,49 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-            <title></title>
-
-        <!--external stylesheet links-->
-        <link rel="icon" href="assets/favicon.png" type="image/png" sizes="16x16">
-        <link rel="stylesheet" href="../css/bootstrap.min.css">
-        <link rel="stylesheet" href="../lib/leaflet/leaflet.css">
-        <link rel="stylesheet" href="../css/style_lb.css">
-         <!--you can also place internal styles here;
-             place these within <style> tags-->
-        
-    </head>
-
-    <body>
-        <!--put your initial page content here-->
-        <div class="row">
-            <!--title-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-widthm initial-scale=1"/>
+    <meta name="keywords" content="maps,cartography"/>
+    <title>Ashley Cofrin</title>
+    <link rel="icon" href="../assets/favicon.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-default">
+    <div class="container">
+        <div class="navbar">
+            <button type="button" class="navbar-toggler" 
+            data-toggle="collapse" data-target="#navbar-header" 
+            aria-expanded="false" aria-controls="navbar-header"> 
+                <span class="sr-only">Toggle navigation</span>
+                <svg width="1em" height="1em" viewBox="0 0 16 16"
+                 class="bi bi-list" xmlns="https://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" /></svg>
+                  <span class="menu"> Menu</span>
+                </button>
+                <a class="navbar-brand" href="../index.html">Ashley Cofrin</a>
+            </div>
+            <div id="navbar-header" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="../index.html#Maps">Maps</a></li>
+                    <li><a href="../index.html#Graphics">Graphics</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../resume.html">Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script type="text/javascript" src="../lib/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+<div class ="container">
+    <div class="row">
             <div class="col-md-12">
-                <div id="title">
-                <center><h2>The Decline of Lesbian Bars in the United States</h2></center>
-                <center><h5>Ashley Cofrin</h5></center>
-            </div>
-        </div>
-    </div>
-    <!--map, using boostrap to make mobile friendly-->
-        <div class="row">
-        <div class="col-md-8">
-          <div id="mapid"></div>
-            </div>
-    <!--supplementary text to inform narrative-->
-        <div class="col-md-4">
-          <div id="textid"> 
-            <h4>The Problem</h4>
-            <p>Norwat</p>
-            <h4>i made a map of norwayt</p>
-            <center><img class="card-img-top"
-src="../assets/Inuit-cover.png"></center>
-            <br>
-            <h4>The History</h4>
-            <p>LGBT+ bars are places of debate. While they have a long history as one of the only gathering spaces for LGBT+ people, they have also faced criticism as spaces that exclude people under the age of 21, as well as those who prefer not to drink alcohol.</p>
-            <p>Those on both sides of the debate about the importance of LGBT+ bars in the modern age will agree that these bars played an important role in the history of the LGBT+ community. Organizations such as <a href="https://lesbianherstoryarchives.org/">The Lesbian Herstory Archives</a> and <a href="https://www.glbthistory.org/">The GLBT Historical Society</a> document this history.</p>
-            <p>In addition to real photos and diaries, historical fiction books such as <a href="https://www.malindalo.com/lastnight"><em>Last Night at the Telegraph Club</em></a> by Malinda Lo document how lesbian bars were some of the very few places that young queer people could find community. Particularly striking to the modern reader, the characters, who live in San Francisco in 1954, have more options for lesbian bars to frequent than are available to a resident of San Francisco today.</p>
-            <h4>Change and Hope</h4>
-            <p>Although lesbian bars have been in rapid decline, there is reason to be hopeful. Though bars themselves may eventually become a thing of the past, increasing acceptance of LGBT+ idenities has allowed LGBT+ youth to find community in other places, both online, and more openly in public.
-        </p>
-          </div>
-            </div>
-        </div>
-
+                <h3>Map of Norway</h3>
+                <p>Ashley Cofrin and Tim Kaczanowski. Winter, 2019 </p>
+                <img class="card-img-top"
+src="../assets/Norway.png">
         <!--put your external script links here-->
         <script type="text/javascript" src="../lib/jquery-3.5.1.min.js"></script>
         <script type="text/javascript" src="../lib/leaflet/leaflet-src.js"></script>
