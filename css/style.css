@@ -148,6 +148,9 @@ a:hover {
 
 .col-md-8 {
 	margin-bottom: 3%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .col-mo-12 {
